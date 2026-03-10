@@ -20,8 +20,30 @@ Mobile      Tablet      Desktop
     Tablet 
 ====================== */
 @media screen and (min-width: 769px) {
-    
-}
+    #topbar {
+        justify-content: left;
+    }
+    .container {
+        padding: 40px;
+    }
+    .recipe-origin {
+        display: inline-block;
+    }
+    .recipe-name {
+        font-size: 1.7em;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 25px;
+        width: 100%;
+    }
+    ul li {
+        flex-basis: calc(100% / 3) - ((25*2) / 3);
+        min-width: calc(100% / 4);
+    }
+}  
 
 
 /* ======================
