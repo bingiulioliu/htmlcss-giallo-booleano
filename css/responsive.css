@@ -91,9 +91,12 @@ Mobile      Tablet      Desktop
     .recipe-card {
         display: flex;
     }
+    .recipe-video iframe {
+        aspect-ratio: 16/9;
+    }
     .recipe-video {
         transition: flex-grow 0.5s ease-in-out;
-        flex-grow: 4;
+        flex-grow: 3;
         max-height: 500px;
     }
     .recipe-info {
