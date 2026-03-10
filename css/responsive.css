@@ -24,12 +24,14 @@ Mobile      Tablet      Desktop
         justify-content: left;
     }
     .container {
-        padding: 40px;
+        transition: padding 0.5s ease-in-out;
+        padding: 30px;
     }
     .recipe-origin {
         display: inline-block;
     }
     .recipe-name {
+        transition: font-size 0.5s ease-in-out;
         font-size: 1.7em;
     }
     ul {
@@ -62,5 +64,16 @@ Mobile      Tablet      Desktop
     Desktop 
 ====================== */
 @media screen and (min-width: 993px) {
+    .recipe-name {
+        font-size: 2.5em;
+    }
+    ul {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .recipe-card {
+        position: relative;
+    }
     
 }
