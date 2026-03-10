@@ -44,7 +44,11 @@ Mobile      Tablet      Desktop
         min-width: calc(100% / 4);
     }
     .btn {
+        transition: flex-grow 0.5s ease-in-out;
         flex-grow: 1;
+    }
+    .ads {
+        display: block;
     }
 }  
 
